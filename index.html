@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <main>
+      <nav id="nav">
+        <h1>Luis Kapp</h1>
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#projeto">Porjeto</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+      <a id="inicio"></a>
+      <header class="container__header">
+        <div class="card__header">
+          <div class="text__header">
+            <h2>Olá, me chamo </br> Luis Guilherme Kapp! &#9786;</h2></br>
+            <p>Desenvolvedor Front-End</p>
+          </div>
+          <img id="img__header" src="./assets/img/foto.png" alt="image do sobre" width="350">
+        </div>
+      </header>
+      <a id="sobre"></a>
+      <section class="container__sobre">
+        <h3>Sobre mim</h3>
+        <div class="text__sobre">
+          <p>Arquiteto e Urbanista que está em transição de carreira e hoje cursa Analise e Desenvolvimento de Sistemas e Desenvolvimento Web. </br> Apaixonado por tecnologia e criar. </p>
+        </div>
+      </section>
+      <section class="container__contato">
+        <button id="telefone">
+          <a href="https://wa.me/5521979298454" target="_blank" rel="noopener noreferrer" ><img class="bkg" src="./assets/icons/phone-svgrepo-com.svg" alt="" width="30"></a>
+        </button>
+        <button id="linkedin">
+          <a href="https://www.linkedin.com/in/luis-guilherme-kapp-a367a9198/" target="_blank" rel="noopener noreferrer" ><img class="bkg" src="./assets/icons/linkedin-svgrepo-com.svg" alt="" width="30"></a>
+        </button>
+        <button id="email">
+          <a href="mailto:luisguilherme0702@gmail.com" target="_blank" rel="noopener noreferrer" ><img class="bkg" src="./assets/icons/email-svgrepo-com.svg" alt="" width="30"></a>
+        </button>
+        <button id="git">
+          <a href="https://github.com/luiskapp" target="_blank" rel="noopener noreferrer" ><img class="bkg" src="./assets/icons/github-svgrepo-com.svg" alt="" width="30"></a>   
+        </button>
+      </section>
+      <a id="projeto"></a>
+      <section class="container__projeto">
+        <h3>Projetos</h3>
+        <div class="projetos">
+          <div class="projeto">
+            <div class="projeto__wrapper">
+              <a class="link__projeto" href="https://luiskapp.github.io/Modulo2-Projeto1-JogodoHumor/" target="_blank" rel="noopener noreferrer" ></a>
+              <p>Ver!</p>
+            </div>
+          </div>
+          <div class="text__projeto">
+            <p>Projeto realizado no modulo 2 do curso de webdesenvolvedor, que consiste em um jogo de humor, com a alteração atravez de um botão, onde o personagem escolido foi a Mônica da Turma da Mônica.</p>
+          </div>
+        </div>
+        <div class="projetos">
+          <div class="projeto">
+            <div class="projeto__wrapper">
+              <a class="link__projeto" href="https://pjtpokedex.herokuapp.com/" target="_blank" rel="noopener noreferrer" ></a>
+              <p>Ver!</p>
+            </div>
+          </div>
+          <div class="text__projeto">
+            <p>Projeto de uma Pokedex, trabalho realizado em parceria com Daniel Vinhas, o projeto consiste onde se possivel encontrar os tipos e pokemons e cadrastar novos.</p>
+          </div>
+        </div>
+        <div class="projetos">
+          <div class="projeto">
+            <div class="projeto__wrapper">
+              <a class="link__projeto" href="https://catalogo-proj-final-blue.herokuapp.com/" target="_blank" rel="noopener noreferrer" ></a>
+              <p>Ver!</p>
+            </div>
+          </div>
+          <div class="text__projeto">
+            <p>Projeto de um catalogo de viagens, onde e possivel saber sobre lugares e cadrastar lugares novos. Projeto realiado em grupo no final no modulo 2.</p>
+          </div>
+        </div>
+      </section>
+      <a id="skills"></a>
+      <section class="container__skills">
+        <h3>Minhas Skills</h3>
+        <div class="skills">
+          <div id="js">
+            JavaScript
+            <img src="./assets/icons/javascript-svgrepo-com.svg" alt="" width="50">
+          </div>
+          <div id="html">
+            HTML
+            <img src="./assets/icons/html5-svgrepo-com.svg" alt="" width="50">
+          </div>
+          <div id="css">
+            CSS
+            <img src="./assets/icons/css3-svgrepo-com.svg" alt="" width="50">
+          </div>
+          <div id="react">
+            React
+            <img src="./assets/icons/react-svgrepo-com.svg" alt="" width="50">
+          </div>
+          <div id="node">
+            NodeJS
+            <img src="./assets/icons/nodejs-svgrepo-com.svg" alt="" width="50">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer><strong>Feito por Luis Guilherme Kapp</strong></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
